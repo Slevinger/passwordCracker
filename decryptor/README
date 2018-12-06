@@ -1,0 +1,3 @@
+To run the app in port 8080 please run the command :
+docker pull shirlevinger/passwordcracker
+docker run -p 8080:8080 shirlevinger/passwordcracker

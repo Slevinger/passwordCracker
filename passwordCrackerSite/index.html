@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Budgety</title>
+    </head>
+    <body style="flex-direction: row; display: flex; justify-content: center">
+
+        <div class="main-container" style="width: 80%; background-color: aliceblue; padding: 20px">
+            <div clas="input-from" style="width: 55%">
+                <div>
+                    <div style="flex-direction: row; display: flex; padding-bottom: 10px;">
+                        <text>key size : </text>
+                        <select class="key-size" placeholder="key size">
+                        </select>
+                    </div>
+
+                    <textarea rows="30" cols="70" class="string-to-dencrypt" placeholder="your encrypted string" ></textarea>
+                </div>
+
+                <div class="ok-btn">
+                    Ok
+                </div>
+
+            </div>
+            <div class="value-container" style="max-width:50%;">
+                <text class="answer-text"></text>
+            </div>
+        </div>
+
+
+        <script src="app.js"></script>
+
+    </body>
+</html>

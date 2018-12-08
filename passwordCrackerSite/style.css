@@ -1,0 +1,59 @@
+
+.string-to-dencrypt{
+    padding: 5px;
+}
+.main-container{
+    flex-direction: row;
+    display: flex;
+
+}
+.ok-btn:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    font-weight: bold;
+}
+.ok-btn{
+    background-color: #e7e7e7;
+    border: darkgray solid thin;
+    border-radius: 4px;
+    font-size: smaller;
+    padding:3px;
+    width:40px;
+    text-align: center;
+    right:0px;
+    float:right;
+}
+.input-form{
+    flex:1
+}
+.value-container{
+    flex:1;
+}
+.key-size{
+    padding: 5px;
+}
+.list-arg:hover {
+    cursor: pointer;
+    background-color: rgba(218,226,222);
+}
+.arg-content{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.list-arg {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    border: lightblue solid thin;
+    border-width: 0px 0px 1px 0px;
+    background-color: rgba(238,246,242,1);
+}
+.wordwrap {
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}

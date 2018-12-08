@@ -23,6 +23,17 @@
     right:0px;
     float:right;
 }
+.prev-back:hover{
+    cursor:pointer;
+    background-color: deepskyblue;
+    color:green;
+}
+.prev-back{
+    radius: 2px;
+    border: thin solid aliceblue;
+    background-color: aliceblue;
+}
+
 .input-form{
     flex:1
 }

@@ -60,12 +60,11 @@ function GET_KEYS(chars, length, encryptedText) {
                 let regexExpression = /[a-zA-Z0-9!@#\$\%\^\&\*\(\)\{\}\\\/\"\:\;\.\,\<\>)]/g;
 
                 let count = (value.match(regexExpression) || []).length;
-                if (count == value.length) {
-                    let probabilty = Math.floor(countLetters / count * 100);
+                let probabilty = Math.floor(countLetters / count * 10)*10;
 
-                    acc[probabilty] = acc[probabilty] || {};
-                    acc[probabilty][key] = value;
-                }
+                acc[probabilty] = acc[probabilty] || {};
+                acc[probabilty][key] = value;
+
 
             }
         }
